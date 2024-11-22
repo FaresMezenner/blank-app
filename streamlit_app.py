@@ -99,5 +99,5 @@ if st.button("Soumettre"):
         st.error("Veuillez prendre un selfie avant de soumettre.")
     else:
         st.info("Envoi des fichiers...")
-        api_endpoint = "http://192.168.249.140:3000/"  # Remplacez par votre URL API
+        api_endpoint = "https://docs-analyser.onrender.com/"  # Remplacez par votre URL API
         envoyer_fichiers(api_endpoint, uploaded_files, selfie)
